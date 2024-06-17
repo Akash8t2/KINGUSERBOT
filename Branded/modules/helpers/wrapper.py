@@ -67,7 +67,7 @@ def inline_wrapper(func):
                 button = [
                     [
                         InlineKeyboardButton(
-                            "💥 Deploy Branded Userbot ✨",
+                            "💥 Deploy 彡 𝙎𝙝𝙞𝙫𝙖𝙮 彡🦅 Userbot ✨",
                             url=f"https://t.me/+Z4WMEMIc9lliNjE1"
                         )
                     ]
@@ -79,10 +79,10 @@ def inline_wrapper(func):
                         (
                             InlineQueryResultPhoto(
                                 photo_url=f"https://telegra.ph/file/c665ef08a6e8292f25de7.jpg",
-                                title="🥀 Branded Userbot ✨",
+                                title="🥀 彡 𝙎𝙝𝙞𝙫𝙖𝙮 彡🦅 Userbot ✨",
                                 thumb_url=f"https://telegra.ph/file/c665ef08a6e8292f25de7.jpg",
-                                description=f"🌷 Deploy Your Own Branded-Userbot 🌿...",
-                                caption=f"<b>🥀 Welcome » To » Branded 🌷\n✅ Userbot {__version__} ✨...</b>",
+                                description=f"🌷 Deploy Your Own 彡 𝙎𝙝𝙞𝙫𝙖𝙮 彡🦅-Userbot 🌿...",
+                                caption=f"<b>🥀 Welcome » To » 彡 𝙎𝙝𝙞𝙫𝙖𝙮 彡🦅 \n✅ Userbot {__version__} ✨...</b>",
                                 reply_markup=InlineKeyboardMarkup(button),
                             )
                         )
@@ -98,7 +98,7 @@ def inline_wrapper(func):
                             InlineQueryResultArticle(
                                 title="",
                                 input_message_content=InputTextMessageContent(
-                                    f"||**🥀 Please, Deploy Your Own Branded Userbot❗...\n\nRepo:** <i>https://t.me/+Z4WMEMIc9lliNjE1/</i>||"
+                                    f"||**🥀 Please, Deploy Your Own 彡 𝙎𝙝𝙞𝙫𝙖𝙮 彡🦅 Userbot❗...\n\nRepo:** <i>https://t.me/+Z4WMEMIc9lliNjE1/</i>||"
                                 ),
                             )
                         )
