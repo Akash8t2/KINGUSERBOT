@@ -28,7 +28,7 @@
         },
         "STRING_SESSION": {
             "description": "Enter your pyrogram v2 string session here @BRANDEDSTRINGSESSION_BOT.",
-            "value": "",
+            "value": "BAHHpwsAa7n17FnBovpKXmNmdCA30daeR4aRBjFaOAUZWeuuqdkCPztdzEzQHcRGtU65aH_mAAwEvj7U9IGum14JSTfwAoToma2zPwxuiiYAERRUWfU8-QH9mLgax-DzNyl9s82OGKDJVucUzy8pf2BZ4wYOSV9dNCrBXGj1j0kTZDsJpkNlKom4pPDPJkDf3YZEQLv4CLn-P4UfscTtREZYtlnKNNTVLsL5yByGXD4MY-uis3NGHx4kBQBcdfwLjMihH25UXga6VGVbyR2ZpwClJREd-R3NtmZwtYfBTQhL2VBWkACtArnb76VYPK04eYQwrX86-GHFm2zkPDQoA4_I1yHuVQAAAAG6rqSOAA",
             "required": true
         },
         "MONGO_DB_URL": {
