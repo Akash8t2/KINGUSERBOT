@@ -23,7 +23,7 @@
         },
         "BOT_TOKEN": {
             "description": "Enter your bot token here",
-            "value": "",
+            "value": "7244430540:AAFYOc0T9lmTPK0TrfrwKrlI9xmjhGHVvWg",
             "required": true
         },
         "STRING_SESSION": {
