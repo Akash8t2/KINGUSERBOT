@@ -26,7 +26,7 @@ Branded Userbot » {__version__} ✨...
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [彡 𝙎𝙝𝙞𝙫𝙖𝙮 彡🦅](https://t.me/+Z4WMEMIc9lliNjE1).**
+🌷Powered By : [◄᪳᪴᪴᪱⏤͟͞⌯‌ᯓRitik┈꙱꙰҈̶᭄≫](https://t.me/+yICjj48-U_ZhOGY1).**
             """,
             reply_markup=InlineKeyboardMarkup(button),
         )
@@ -47,7 +47,7 @@ Branded Userbot » {__version__} ✨...
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [彡 𝙎𝙝𝙞𝙫𝙖𝙮 彡🦅](https://t.me/+Z4WMEMIc9lliNjE1).**""",
+🌷Powered By : [◄᪳᪴᪴᪱⏤͟͞⌯‌ᯓRitik┈꙱꙰҈̶᭄≫](https://t.me/+yICjj48-U_ZhOGY1).**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),
