@@ -2,7 +2,6 @@ asyncio==3.4.3
 GitPython
 motor==2.5.1
 py-tgcalls==2.0.1
-ntgcalls==2.0.3
 git+https://github.com/pyrogrammod/pyrogrammod
 python-dotenv
 telegraph
@@ -10,3 +9,4 @@ tgcrypto==1.2.5
 youtube-search-python
 yt-dlp
 pymongo[srv]
+ntgcalls==2.0.1
