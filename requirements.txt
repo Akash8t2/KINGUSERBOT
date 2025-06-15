@@ -9,4 +9,4 @@ tgcrypto==1.2.5
 youtube-search-python
 yt-dlp
 pymongo[srv]
-ntgcalls==2.0.1
+ntgcalls==2.0.0
