@@ -67,7 +67,7 @@ def inline_wrapper(func):
                 button = [
                     [
                         InlineKeyboardButton(
-                            "💥 Deploy  ◄᪳᪴᪴᪱⏤͟͞⌯‌ᯓRitik┈꙱꙰҈̶᭄≫ Userbot ✨",
+                            "💥 Deploy  —͟͟͞͞𝗔𝗞𝗔𝗦𝗛 🥀 【 𝗦𝐅𝗪 】 Userbot ✨",
                             url=f"https://t.me/+Z4WMEMIc9lliNjE1"
                         )
                     ]
@@ -78,11 +78,11 @@ def inline_wrapper(func):
                     results=[
                         (
                             InlineQueryResultPhoto(
-                                photo_url=f"https://telegra.ph/file/c665ef08a6e8292f25de7.jpg",
-                                title="🥀 ◄᪳᪴᪴᪱⏤͟͞⌯‌ᯓRitik┈꙱꙰҈̶᭄≫ Userbot ✨",
-                                thumb_url=f"https://telegra.ph/file/c665ef08a6e8292f25de7.jpg",
-                                description=f"🌷 Deploy Your Own ◄᪳᪴᪴᪱⏤͟͞⌯‌ᯓRitik┈꙱꙰҈̶᭄≫-Userbot 🌿...",
-                                caption=f"<b>🥀 Welcome » To » ᯓRitik┈꙱꙰҈̶᭄≫ \n✅ Userbot {__version__} ✨...</b>",
+                                photo_url=f"https://graph.org/file/6e463b721c5feb37d0e32-d72874797d1e0b04e0.jpg",
+                                title="🥀 —͟͟͞͞𝗔𝗞𝗔𝗦𝗛 🥀 【 𝗦𝐅𝗪 】",
+                                thumb_url=f"https://graph.org/file/6e463b721c5feb37d0e32-d72874797d1e0b04e0.jpg",
+                                description=f"🌷 Deploy Your Own —͟͟͞͞𝗔𝗞𝗔𝗦𝗛 🥀 【 𝗦𝐅𝗪 】",
+                                caption=f"<b>🥀 Welcome » To » —͟͟͞͞𝗔𝗞𝗔𝗦𝗛 🥀 【 𝗦𝐅𝗪 】 \n✅ Userbot {__version__} ✨...</b>",
                                 reply_markup=InlineKeyboardMarkup(button),
                             )
                         )
@@ -98,7 +98,7 @@ def inline_wrapper(func):
                             InlineQueryResultArticle(
                                 title="",
                                 input_message_content=InputTextMessageContent(
-                                    f"||**🥀 Please, Deploy Your Own ᯓritik┈꙱꙰҈̶᭄≫ Userbot❗...\n\nRepo:** <i>https://t.me/+Z4WMEMIc9lliNjE1/</i>||"
+                                    f"||**🥀 Please, Deploy Your Own —͟͟͞͞𝗔𝗞𝗔𝗦𝗛 🥀 【 𝗦𝐅𝗪 】 Userbot❗...\n\nRepo:** <i>https://t.me/botcasx/</i>||"
                                 ),
                             )
                         )
