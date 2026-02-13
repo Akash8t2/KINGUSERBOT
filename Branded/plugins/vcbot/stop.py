@@ -1,6 +1,6 @@
 from asyncio.queues import QueueEmpty
 from pyrogram import filters
-from pytgcalls.exceptions import GroupCallNotFound
+from pytgcalls.exceptions import NotInCallError
 
 from ... import *
 from ...modules.mongo.streams import *
@@ -24,7 +24,7 @@ async def stop_stream(client, message):
             await eor(message, "**Stream Stopped!**")
         elif a.status == "not_playing":
             await eor(message, "**Nothing Playing!**")
-    except GroupCallNotFound:
+    except NotInCallError:
         await eor(message, "**I am Not in VC!**")
     except Exception as e:
         print(f"Error: {e}")
@@ -52,7 +52,7 @@ async def stop_stream_chat(client, message):
             await eor(message, "**Stream Stopped!**")
         elif a.status == "not_playing":
             await eor(message, "**Nothing Playing!**")
-    except GroupCallNotFound:
+    except NotInCallError:
         await eor(message, "**I am Not in VC!**")
     except Exception as e:
         print(f"Error: {e}")
@@ -75,7 +75,7 @@ async def close_stream_(client, message):
                 pass
             await call.leave_group_call(chat_id)
             await eor(message, "**Stream Ended!**")
-    except GroupCallNotFound:
+    except NotInCallError:
         await eor(message, "**I am Not in VC!**")
     except Exception as e:
         print(f"Error: {e}")
@@ -103,8 +103,9 @@ async def close_stream_chat(client, message):
                 pass
             await call.leave_group_call(chat_id)
             await eor(message, "**Stream Ended!**")
-    except GroupCallNotFound:
+    except NotInCallError:
         await eor(message, "**I am Not in VC!**")
     except Exception as e:
         print(f"Error: {e}")
         
+
