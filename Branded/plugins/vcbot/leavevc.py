@@ -1,6 +1,6 @@
 from asyncio.queues import QueueEmpty
 from pyrogram import filters
-from pytgcalls.exceptions import GroupCallNotFound
+from pytgcalls.exceptions import NotInCallError
 
 from ... import *
 from ...modules.mongo.streams import *
@@ -23,7 +23,7 @@ async def leave_vc(client, message):
                 pass
             await call.leave_group_call(chat_id)
             await eor(message, "**Left VC!**")
-    except GroupCallNotFound:
+    except NotInCallError:
         await eor(message, "**I am Not in VC!**")
     except Exception as e:
         print(f"Error: {e}")
@@ -50,7 +50,7 @@ async def leave_vc_(client, message):
                 pass
             await call.leave_group_call(chat_id)
             await eor(message, "**Left VC!**")
-    except GroupCallNotFound:
+    except NotInCallError:
         await eor(message, "**I am Not in VC!**")
     except Exception as e:
         print(f"Error: {e}")
